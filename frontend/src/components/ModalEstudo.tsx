@@ -6,7 +6,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import type { ChangeEvent, FormEvent } from 'react';
-import type { ModalEstudoProps, NovoEstudo, StatusEstudo } from '../types';
+import type { ModalEstudoProps, NovoEstudo, } from '../types';
 
 // Cores disponíveis para o usuário escolher
 const CORES_DISPONIVEIS = [

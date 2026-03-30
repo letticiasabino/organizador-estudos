@@ -6,11 +6,11 @@
 import axios from 'axios';
 
 // URL base da API (json-server rodando na porta 3001)
-const BASE_URL = 'https://organizador-estudos-production.up.railway.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://organizador-estudos-production.up.railway.app';
 
 // Criamos uma instância do axios com configurações padrão
 const api = axios.create({
-  baseURL: BASE_URL,
+  baseURL: API_URL,
   headers: {
     'Content-Type': 'application/json',
   },

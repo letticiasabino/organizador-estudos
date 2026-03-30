@@ -6,7 +6,7 @@
 import axios from 'axios';
 
 // URL base da API (json-server rodando na porta 3001)
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = 'https://organizador-estudos-production.up.railway.app';
 
 // Criamos uma instância do axios com configurações padrão
 const api = axios.create({

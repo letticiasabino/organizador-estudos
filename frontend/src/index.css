@@ -1,0 +1,59 @@
+/* ============================================
+   index.css — Estilos globais
+   Tailwind directives + customizações extras
+   ============================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove o scroll horizontal indesejado */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Scrollbar customizada — dark mode */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4B5563;
+}
+
+/* Animação de entrada para as notificações */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Smooth scroll para navegação por âncora */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove os spinners dos inputs type=number para visual mais limpo */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}

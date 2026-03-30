@@ -1,0 +1,147 @@
+{
+  "estudos": [
+    {
+      "id": "1",
+      "titulo": "React do Zero ao Avançado",
+      "materia": "React",
+      "metaHoras": 80,
+      "horasEstudadas": 32,
+      "cor": "#7C3AED",
+      "descricao": "Aprender React com hooks, context e boas práticas",
+      "criadoEm": "2024-01-10T10:00:00.000Z",
+      "status": "em_andamento"
+    },
+    {
+      "id": "2",
+      "titulo": "TypeScript para Iniciantes",
+      "materia": "TypeScript",
+      "metaHoras": 40,
+      "horasEstudadas": 40,
+      "cor": "#2563EB",
+      "descricao": "Tipagem, interfaces, generics e integração com React",
+      "criadoEm": "2024-01-15T08:00:00.000Z",
+      "status": "concluido"
+    },
+    {
+      "id": "3",
+      "titulo": "CSS & Tailwind na Prática",
+      "materia": "CSS",
+      "metaHoras": 30,
+      "horasEstudadas": 8,
+      "cor": "#DC2626",
+      "descricao": "Flexbox, Grid, animações e utilitários Tailwind",
+      "criadoEm": "2024-02-01T09:00:00.000Z",
+      "status": "em_andamento"
+    },
+    {
+      "id": "4",
+      "titulo": "Node.js e APIs REST",
+      "materia": "Node.js",
+      "metaHoras": 60,
+      "horasEstudadas": 0,
+      "cor": "#059669",
+      "descricao": "Express, rotas, middlewares e banco de dados",
+      "criadoEm": "2024-02-10T07:00:00.000Z",
+      "status": "nao_iniciado"
+    },
+    {
+      "titulo": "React do Zero ao Avançado",
+      "materia": "React",
+      "metaHoras": 10,
+      "horasEstudadas": 0,
+      "cor": "#7C3AED",
+      "descricao": "Como criar e aninhar componentes\nComo adicionar marcações e estilos\nComo exibir dados\nComo renderizar elementos condicionalmente e listas\nComo responder a eventos e atualizar a tela\nComo compartilhar dados entre componentes",
+      "status": "nao_iniciado",
+      "criadoEm": "2026-03-30T16:09:42.842Z",
+      "id": "WjHXkUO"
+    },
+    {
+      "titulo": "HTML do Zero ao Avançado",
+      "materia": "HTML",
+      "metaHoras": 400,
+      "horasEstudadas": 99,
+      "cor": "#7C3AED",
+      "descricao": "Modelo, slot e sombra\nAPIs HTML\nFoco\nOutros elementos de texto inline\nDetalhes e resumo\nDiálogo",
+      "status": "em_andamento",
+      "criadoEm": "2026-03-30T16:15:38.660Z",
+      "id": "Rd_t2e5"
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "1",
+      "estudoId": "1",
+      "duracao": 25,
+      "tipo": "foco",
+      "data": "2024-02-20T14:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "estudoId": "1",
+      "duracao": 25,
+      "tipo": "foco",
+      "data": "2024-02-20T15:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "estudoId": "2",
+      "duracao": 25,
+      "tipo": "foco",
+      "data": "2024-02-21T10:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "estudoId": "3",
+      "duracao": 25,
+      "tipo": "foco",
+      "data": "2024-02-22T09:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "estudoId": "1",
+      "duracao": 25,
+      "tipo": "foco",
+      "data": "2024-02-23T16:00:00.000Z"
+    },
+    {
+      "estudoId": "1",
+      "duracao": 1,
+      "tipo": "foco",
+      "data": "2026-03-30T16:17:26.548Z",
+      "id": "hks4r6D"
+    },
+    {
+      "estudoId": "1",
+      "duracao": 1,
+      "tipo": "foco",
+      "data": "2026-03-30T16:17:26.549Z",
+      "id": "jaI7lAu"
+    }
+  ],
+  "progresso": [
+    {
+      "id": "1",
+      "estudoId": "1",
+      "horasNoDia": 1.5,
+      "data": "2024-02-20"
+    },
+    {
+      "id": "2",
+      "estudoId": "2",
+      "horasNoDia": 2,
+      "data": "2024-02-21"
+    },
+    {
+      "id": "3",
+      "estudoId": "3",
+      "horasNoDia": 0.5,
+      "data": "2024-02-22"
+    },
+    {
+      "id": "4",
+      "estudoId": "1",
+      "horasNoDia": 1,
+      "data": "2024-02-23"
+    }
+  ]
+}

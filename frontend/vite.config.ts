@@ -9,7 +9,7 @@ export default defineConfig({
     // Proxy para evitar CORS durante desenvolvimento
     proxy: {
       '/api': {
-        target: 'organizador-estudos-production.up.railway.app',
+        target: 'https://organizador-estudos-production.up.railway.app',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
